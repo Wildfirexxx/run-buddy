@@ -233,6 +233,22 @@ width: 65%;
     margin: 30px 0 0 60px;
     color: white;
 }
+
+.contact-info h3 {
+    color: #fce138;
+    font-size: 32px;
+}
+
+.contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+  }
+
+.contact-info div a{
+    color: #fce138;
+}
 /* "Reach Out" Section start */
 
 /* FOOTER style start */
