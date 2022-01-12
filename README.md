@@ -13,4 +13,4 @@ https://wildfirexxx.github.io/run-buddy/
 ## Contribution
 Made with ❤️ by [Alderick]
 
-### ©️2019 Run Buddy, Inc 
+# Run Buddy Inc.
