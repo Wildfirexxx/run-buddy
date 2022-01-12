@@ -52,9 +52,11 @@
         
         <div class="hero-form">
             <h3>Get Started Today</h3>
-            <p>Fill out this form and on of our trainers will schedule a consult.</p>
+            <p>
+                Fill out this form and on of our trainers will schedule a consult.
+            </p>
             <!-- FORM element -->
-            <form action="">
+            <form action=>
                 <label for="name">Enter Full Name:</label>
                 <input class="form-input" type="text" placeholder="Your Name" name="name" id="name">
                 <label for="email">Enter Email address:</label>
@@ -63,16 +65,22 @@
                 <input class="form-input" type="tel" placeholder="Phone Number" name="phone" id="phone">
             <p>
                 Have you worked with a trainer before?
-                <input type="radio" name="trainer-confirm" id="trainer-yes">
-                <label for="trainer-yes">YES</label>
-                <input type="radio" name="trainer-confirm" id="trainer-no">
-                <label for="trainer-no">NO</label>
+                <span class="radio-wrapper">
+                    <input type="radio" name="trainer-confirm" id="trainer-yes">
+                    <label for="trainer-yes">YES</label>
+                </span>
+                <span class="radio-wrapper">
+                    <input type="radio" name="trainer-confirm" id="trainer-no">
+                    <label for="trainer-no">NO</label>
+                </span>
             </p>
             <p>
-                <label for="checkbox">
-                    I acknowlege that I am at least 18 years of age.
-                </label>
-                <input type="checkbox" name="age-confrim" id="checkbox">
+                <span class="checkbox-wrapper">
+                    <input type="checkbox" name="age-confrim" id="checkbox">
+                    <label for="checkbox">
+                        I acknowlege that I am at least 18 years of age.
+                    </label>
+                </span>
             </p>
             <button type="submit">
                 Get running!
